@@ -33,7 +33,10 @@ const UserList: React.FC<UserListProps> = ({ users }) => {
         value={searchTerm}
         onChange={handleSearch}
         fullWidth
-        style={{ marginBottom: '20px' }}
+        style={{ marginBottom: '20px'}}
+        InputProps={{
+          style: { color: "#ffffff",  fontWeight:"700"}
+        }}
       />
 
 {filteredUsers.length === 0 ?(<Alert severity="warning">User not found</Alert>) :<Grid container spacing={4} >
