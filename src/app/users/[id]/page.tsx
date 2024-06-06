@@ -17,7 +17,7 @@ const UserPage = async ({ params }: UserPageProps) => {
   return (
 
     
-    <Container  sx={ {display:"flex",justifyContent:"center",  marginTop:"5%" }}>
+    <Container  sx={ {display:"flex",justifyContent:"center",  marginTop:"3%" }}>
       
       
       <UserDetails  user={user} />
