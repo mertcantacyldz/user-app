@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ```bash
 1- Materiul UI Document (https://mui.com/material-ui/getting-started/)
 2- React Icons (https://react-icons.github.io/react-icons/)
-3-Chatgpt 3.5  used for debugging etc.
+3-ChatGPT-3.5  used for debugging etc.
 ```
 
 ## Getting Started
